@@ -2,11 +2,6 @@ name: Unit Test Workflow
 
 on:
   workflow_call:
-    inputs:
-      module:
-        description: 'Unit Test Module'
-        type: string
-        required: true
 
 jobs:
   unit-test:
